@@ -6,9 +6,9 @@
       "use": "@vercel/static-build",
       "config": {
         "installCommand": "npm --prefix frontend install",
-        "buildCommand": "npm --prefix frontend run build",
-        "distDir": "frontend/dist"
-      }
+        "buildCommand": "npm --prefix frontend run build"
+      },
+      "distDir": "frontend/dist"
     },
     {
       "src": "backend/server.js",
@@ -29,3 +29,4 @@
     }
   ]
 }
+
